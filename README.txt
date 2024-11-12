@@ -10,11 +10,11 @@ The paper uses data from the *AmericasBarometer* of the *Latin American Opinion 
 ### Steps to Access the Data
 1. Visit the [AmericasBarometer Database](http://datasets.americasbarometer.org/database/).
 2. Select the year **2021** and download the file titled **"Merged_LAPOP_AmericasBarometer_2021_v1.2_w"**.
-3. You’ll need to accept the website’s terms of use to access the download.
+3. You’ll need to accept the website's terms of use to access the download.
 
 After downloading, rename the file to `LAPOP_2021.dta` and place it in a `Data` folder within this repository.
 
-## Code
+## Code (src)
 The analysis is conducted using Stata.
 
 - **`Master.do`**: This master do-file orchestrates the replication by calling the following scripts:
