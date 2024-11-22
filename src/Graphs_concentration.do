@@ -128,7 +128,8 @@ gen cum_pop="20"
 replace cum_pop="40" if pct==2
 replace cum_pop="60" if pct==3
 replace cum_pop="80" if pct==4
-drop if pct==5 // 110% will not show up in the table 
+drop if pct==5 // 100% will not show up in the table 
+drop if pct==.
 
 replace cumshare_income=100*cumshare_income
 replace cumshare_tapexp=100*cumshare_tapexp
